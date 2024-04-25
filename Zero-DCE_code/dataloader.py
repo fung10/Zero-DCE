@@ -18,7 +18,7 @@ def populate_train_list(lowlight_images_path):
 
 
 
-	image_list_lowlight = glob.glob(lowlight_images_path + "*.jpg")
+	image_list_lowlight = glob.glob(lowlight_images_path + "*.jpg") + glob.glob(lowlight_images_path + "*.png")
 
 	train_list = image_list_lowlight
 
